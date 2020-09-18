@@ -1,0 +1,16 @@
+{
+    "name": "blog app",
+    "description": "This is blogapp",
+    "keywords": [],
+    "website": "",
+    "repository": "https://github.com/tatsuya0214/blog-app-tatsuya",
+    "env": {},
+    "addons": [
+        "heroku-postgresql:hobby-dev"
+    ],
+    "builpacks": [{
+        "url": "heroku/nodejs"
+    }, {
+        "url": "heroku/ruby"
+    }]
+}
