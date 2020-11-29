@@ -6,11 +6,11 @@
     "repository": "https://github.com/tatsuya0214/blog-app-tatsuya",
     "env": {},
     "addons": [
-        "heroku-postgresql:hobby-dev"
+      "heroku-postgresql:hobby-dev"
     ],
-    "builpacks": [{
-        "url": "heroku/nodejs"
+    "buildpacks": [{
+      "url": "heroku/nodejs"
     }, {
-        "url": "heroku/ruby"
+      "url": "heroku/ruby"
     }]
-}
+  }
